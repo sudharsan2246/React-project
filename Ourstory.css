@@ -1,0 +1,54 @@
+.ourstory{
+    background-color: rgb(238, 238, 238);
+    margin: 0 auto;
+    
+}
+.ourstory h4{
+    padding-top: 50px;
+}
+.ourstory p{
+    color: black;
+}
+.hello{
+    margin: 0 auto;
+    width: 80%;
+}
+.margin{
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.bbg{
+   width: 50%; 
+   text-align: center;
+   justify-content: center;
+   height: 300px;
+}
+.col-center{
+    width: 500px;
+    font-size: 13px;
+}
+.col-center1{
+    width: 300px;
+   
+}
+.col-center2{
+    width: 250px;
+    padding-left: 50px;
+    font-size: 13px;
+}
+.col-center h4{
+    padding-top: 20px;
+    
+}
+.col-center2 h4{
+    padding-top: 20px;
+}
+
+@media only screen and (max-width:670px){
+    .bbg{ 
+        width: 80%;
+        text-align: center;
+        height: 400px;
+     }
+}

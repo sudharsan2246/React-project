@@ -1,0 +1,35 @@
+.gallery{
+    text-decoration: none;
+    margin: 0 auto;
+    
+}
+.gallery .width{
+    width: 80%;
+    
+}
+.card-body{
+    
+    padding-left: 15px;
+    margin: 0 auto;
+}
+.card{
+    
+    margin: 0 auto;
+    
+}
+.button5{
+    color: #ffce3e;
+    text-decoration: none;
+    font-size: small;
+}
+h5{
+    padding-top: 15px;
+}
+.card-body p{
+    font-size: 13px;
+}
+
+.button5:hover{
+    color: #ffce3e;
+}
+

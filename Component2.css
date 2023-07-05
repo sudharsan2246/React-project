@@ -1,0 +1,112 @@
+.backgroundimage {
+    background-image: url(./image/slide2-41.jpg);
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+
+
+}
+
+.col-height5 {
+    height: 50px;
+    width: 45%;
+    text-align: left;
+
+}
+
+.col-height6 {
+    height: 50px;
+    width: 70%;
+    padding-left: 500px;
+
+}
+
+.white {
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    font-size: 125px;
+    text-align: center;
+}
+
+p {
+    color: white;
+    text-align: center;
+}
+
+.button-style {
+    padding: 10px;
+    width: 140px;
+    border: none;
+    font-size: 16px;
+    font-family: sans-serif;
+
+}
+
+.button-style1 {
+    padding: 10px;
+    width: 140px;
+    border: none;
+    font-size: 12px;
+    font-family: sans-serif;
+    text-align: center;
+
+}
+
+
+@media only screen and (max-width:1023px) {
+    .col-height5 {
+        height: 100px;
+        width: 60%;
+        text-align: center;
+        margin: 0 auto;
+        padding-left: 0px;
+
+    }
+
+    .col-height6 {
+        height: 100px;
+        text-align: center;
+        width: 60%;
+        margin: 0 auto;
+        padding-left: 0px;
+    }
+
+    .backgroundimage {
+        background-image: url(./image/slide2-41.jpg);
+        background-size: cover;
+        opacity: 1;
+        height: 700px;
+        width: 100%;
+
+
+    }
+
+}
+
+@media only screen and (max-width:575px) {
+    h1 {
+        color: white;
+        font-size: 75px;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width:1441px) {
+    .col-height5 {
+        height: 50px;
+        width: 25%;
+
+
+    }
+
+    .col-height6 {
+        height: 50px;
+        width: 25%;
+        padding-left: 350px;
+    }
+}
+@media only screen and (min-width:1440px){}

@@ -1,0 +1,60 @@
+.blogs{
+    height: 900px;
+    width: 90%;
+}
+.blogs h3{
+    font-size: 22px;
+    text-align: center;
+    padding-top: 100px;
+}
+.blogs h2{
+    font-size: 52px;
+    text-align: center;
+}
+
+.blogs p{
+    font-size: 16px;
+}
+.blogs h5{
+    font-size: 25px;
+    padding: 5px;
+    font-family: sans-serif;
+}
+.blog-relative{
+    position: relative;
+}
+.blog-absolute{
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    background-color: #ffce3e;
+    text-align: center;
+    bottom: -40px;
+}
+.blogs .button5{
+    background-color: transparent;
+    border: none;
+    padding-bottom: 15px;
+}
+.blogs .card-body p{
+    text-align: left;
+}
+
+@media only screen and (max-width:767px){
+    .blogs{
+        height: 1800px;
+        width: 90%;
+    }
+}
+@media only screen and (max-width:390px){
+    .blogs{
+        height: 2000px;
+        width: 90%;
+    }
+}
+@media only screen and (max-width:308px){
+    .blogs{
+        height: 2200px;
+        width: 90%;
+    }
+}

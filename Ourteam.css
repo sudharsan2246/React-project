@@ -1,0 +1,23 @@
+
+.ourteam{
+    text-align: center;
+}
+.ourteam h1{
+    font-size: 48px;
+    color: black;
+    text-align: center;
+}
+.ourteam h3{
+    font-size: 20px;
+    color: black;
+}
+.ourteam p{
+    font-size: 15px;
+    color: black;
+}
+.ourteam h5{
+    font-size: 25px;
+}
+.gray-background{
+    background-color: #969696;
+}

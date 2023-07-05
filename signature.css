@@ -1,0 +1,44 @@
+.signature{
+    background-image: url(./../src/image/signature\ background.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.signature .container{
+    width: 50%;
+}
+.signature h1{
+    font-size: 48px;
+    padding-top: 100px;
+    color: white;
+    padding-bottom: 30px;
+}
+.signature p{
+    font-size: 22px;
+    color: white;
+}
+@media only screen and (max-width:1439px){
+    .signature .container{
+        width: 90%;
+    }
+    .signature{
+        height: 550px;
+    }
+}
+@media only screen and (max-width:604px){
+    .signature{
+        height: 650px;
+    }
+    .signature h1{
+        font-size: 38px;
+        padding-top: 50px;
+        color: white;
+        padding-bottom: 30px;
+    }
+    .signature p{
+        font-size: 18px;
+        color: white;
+    }
+
+}

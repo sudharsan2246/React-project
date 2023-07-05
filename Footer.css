@@ -1,0 +1,33 @@
+.footer{
+    background-color: black;
+    height: 220px;
+    
+}
+.footer .container{
+    height: 220px;
+}
+.footer .icon-style{
+    height: 64px;
+    width: 64px;
+    color: white;
+    text-align: left;
+}
+.footer h4{
+    color: #ffce3e;
+}
+.footer p{
+    text-align: left;
+}
+
+@media only screen and (max-width:767px){
+    .footer{
+        background-color: black;
+        height: 450px;
+        
+    }
+    .footer .container{
+        height: 450px;
+    }
+}
+
+

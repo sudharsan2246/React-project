@@ -1,0 +1,45 @@
+.counter{
+    background-color: #ffce3e;
+    height:280px;
+    
+}
+.counter .container{
+    height: 280px;
+    width: 85%;
+    
+}
+.counter h1,p{
+    color: black;
+}
+.counter h1{
+    font-size: 48px;
+    padding-top: 100px;
+}
+.counter p{
+    font-size: 14px;
+   
+}
+@media only screen and (max-width:991px){
+    .counter{
+        background-color: #ffce3e;
+        height:500px;
+        
+    }
+    .counter .container{
+        height: 500px;
+    }
+}
+@media only screen and (max-width:767px){
+    .counter{
+        background-color: #ffce3e;
+        height:950px;
+        
+    }
+    .counter .container{
+        height: 950px;
+    }
+    .counter h1{
+        font-size: 48px;
+        padding-top: 100px;
+    }
+}
